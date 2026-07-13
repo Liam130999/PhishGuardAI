@@ -1,0 +1,27 @@
+# Secrets - never commit real credentials
+.env
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Project spec docs (not for public repo)
+*.pdf
+*.docx
+docs/final-report.md
+
+# Local custom agents (not for public repo)
+.github/agents/

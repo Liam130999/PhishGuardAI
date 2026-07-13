@@ -1,0 +1,8 @@
+# Phish-Guard AI - runtime dependencies
+python-dotenv>=1.0.0      # Secret management: loads IMAP_APP_PASSWORD from a local .env
+groq>=0.11.0             # Groq API client used by the Streamlit web UI (app.py)
+streamlit>=1.36.0         # Local web UI (sidebar config, live monitor, manual tester)
+
+# --- Development / testing dependencies ---
+pytest>=8.0.0
+pytest-mock>=3.12.0
